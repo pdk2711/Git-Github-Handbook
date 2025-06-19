@@ -6,9 +6,7 @@ This is my **personal crash course** on Git & GitHub — notes I use to stay sha
 
 It includes:
 - Day-to-day Git commands I actually use
-- Common mistakes I used to make (and how to avoid them)
 - Concepts explained in my own words
-- Real-world GitHub workflows for solo + team projects
 
 ---
 
