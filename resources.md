@@ -12,8 +12,10 @@ Use this as your extended toolbox 📚
 
 - Best source for me was **freecodecamp.org** tutorials :
   * [Git & Github Youtube Playlist](https://www.youtube.com/watch?v=vR-y_2zWrIE&list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
- 
-- Website Hosting
+
+
+# 🌐 Website Hosting
+- GitHub can be used to host static, simple websites/projects for free. The guidelines are below: 
     * [Github Pages](https://docs.github.com/en/pages/quickstart#creating-your-website)
 
   
