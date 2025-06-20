@@ -28,6 +28,35 @@ git checkout -b branch-name
 4. Open a Pull Request (PR)
 5. Review & merge into main
 
+## 🗺️ Visual Git Collaboration Workflow
+
+```
+main
+ │
+ ├──➤ git checkout -b feature-xyz
+ │       │
+ │       ▼
+ │   Work on feature
+ │       │
+ │       ▼
+ │   git add . && git commit -m "message"
+ │       │
+ │       ▼
+ │   git push -u origin feature-xyz
+ │       │
+ │       ▼
+ │  🔁 Open Pull Request on GitHub
+ │       │
+ │       ▼
+ │   ✅ Review & Merge PR
+ │       │
+ │       ▼
+ └────➤ git checkout main
+         git pull origin main
+         git branch -d feature-xyz
+         git push origin --delete feature-xyz
+```
+
 ---
 
 ## 📤 Pushing a Branch to GitHub
