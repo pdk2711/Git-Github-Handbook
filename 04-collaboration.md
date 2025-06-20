@@ -47,6 +47,54 @@ git merge branch-name
 ```
 If there are no conflicts, the branch will be merged.
 
+---
+
+## ⚠️ Merge Conflicts
+
+If two branches change the same line, Git will ask you to resolve a conflict.
+
+e.g.
+```bash
+<<<<<<< HEAD
+This is main branch code
+=======
+This is feature branch code
+>>>>>>> feature-branch
+```
+Just edit it, delete the conflict markers (<<<<<<<, =======, >>>>>>>), and commit again.
+
+---
 
 
+## 📌 Pull Requests (PRs) on GitHub
 
+- A Pull Request lets someone propose changes to a repo.
+- Steps:
+    1. Push your branch
+    2. Go to GitHub repo
+    3. Click Compare & Pull Request
+    4. Add a title and description
+    5. Click Create Pull Request
+
+- The team can now:
+    * Review changes
+    * Leave comments
+    * Request changes
+    * Merge the PR
+
+---
+
+## 🚨 Delete Merged Branches (Best Practice)
+Once merged:
+
+```bash
+git branch -d feature-login         # Local delete
+git push origin --delete feature-login  # Remote delete
+```
+---
+
+💡 Tip: Naming Branches
+Use clear names:
+- feature/login-page
+- bugfix/typo-in-readme
+- hotfix/deploy-error
