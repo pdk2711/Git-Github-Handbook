@@ -30,7 +30,7 @@ git checkout -b branch-name
 
 ## 🗺️ Visual Git Collaboration Workflow
 
-```
+<!--```
 main
  │
  ├──➤ git checkout -b feature-xyz
@@ -55,8 +55,21 @@ main
          git pull origin main
          git branch -d feature-xyz
          git push origin --delete feature-xyz
+```-->
+```mermaid
+flowchart TD
+    A[main branch] --> B[Create feature branch]
+    B --> C[Switch: git checkout -b feature-xyz]
+    C --> D[Make changes]
+    D --> E[Stage & Commit]
+    E --> F[Push branch to GitHub]
+    F --> G[Open Pull Request]
+    G --> H[Review & Merge PR]
+    H --> I[Switch to main]
+    I --> J[Pull latest main]
+    J --> K[Delete local branch]
+    K --> L[Delete remote branch]
 ```
-
 ---
 
 ## 📤 Pushing a Branch to GitHub
