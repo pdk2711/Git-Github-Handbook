@@ -2,7 +2,6 @@
 ⚙️ A curated personal guide to Git &amp; GitHub: commands, concepts, and clean workflows.
 # 🚀 My Personal Git & GitHub Guide
 
-This is my **personal crash course** on Git & GitHub — notes I use to stay sharp and guide others, especially during workshops and peer sessions.
 
 It includes:
 - Day-to-day Git commands I actually use
